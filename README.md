@@ -78,13 +78,18 @@ Código claro y ordenado
 
 1. Clonar repositorio
    
-    git clone <URL_DEL_REPO>
+   ```bash
+     git clone <URL_DEL_REPO>
+   ```
+   
 
 3. Crear rama de trabajo
    
     Ubicado en el proyecto clonado ejecute
-   
-       git checkout -b nombrecompleto_documentoidentidad
+
+    ```bash
+     git checkout -b nombrecompleto_documentoidentidad
+    ```
    
     Esa sera la rama en la que debe desarrollar y subir al repositorio comun
 
@@ -121,12 +126,14 @@ Código claro y ordenado
         mvn test
    
 11. Luego de desarrollar, ejecute en la terminal
+
+    ```bash
+        git add .
     
-    git add .
+        git commit -m "Descripción del cambio"
     
-    git commit -m "Descripción del cambio"
-    
-    git push origin nombrecompleto_documentoidentidad
+        git push origin nombrecompleto_documentoidentidad
+    ```
 
    
 --- 
