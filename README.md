@@ -3,7 +3,9 @@
 ## Objetivo
 Corregir y completar los métodos del servicio para que los tests unitarios funcionen correctamente.
 
+
 ---
+
 
 ## Requisitos
 
@@ -11,7 +13,9 @@ Corregir y completar los métodos del servicio para que los tests unitarios func
 - Visual Studio Code o IntelliJ
 - Maven
 
+
 ---
+
 
 ## IMPORTANTE (Configuración Java)
 
@@ -24,35 +28,51 @@ java -version
 javac -version
 ```
 
+
 ---
+
 
 ## DESCRIPCION DEL EJERCICIO:
 
 Analizar por qué fallan los tests
+
 Corregir el método calcularTotal
+
 Corregir el método calcularTotalConDescuento
 
+
 ---
+
 
 ## TENGA EN CUENTA LAS SIGUIENTES REGLAS:
 
 ❌ No eliminar tests
+
 ✅ Aplicar validaciones
+
 ✅ Manejar errores correctamente (excepciones)
+
 ✅ Mantener código limpio
+
 ❌ No debe subir cambios a la rama main
     
 
 ---
 
+
 🎯 CRITERIOS DE EVALUACIÓN
 
 Tests pasan correctamente
+
 Uso adecuado de validaciones
+
 Manejo de errores
+
 Código claro y ordenado
 
+
 --- 
+
 
 ## PASOS PARA EJECUTAR
 
@@ -82,5 +102,11 @@ Código claro y ordenado
         Click en ▶ Run Test
     O desde terminal:
         mvn test
+   
+8. Luego de desarrollar, ejecute en la terminal
+    git add .
+    git commit -m "Descripción del cambio"
+    git push origin nombrecompleto_documentoidentidad
 
+   
 --- 
