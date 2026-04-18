@@ -77,35 +77,55 @@ Código claro y ordenado
 ## PASOS PARA EJECUTAR
 
 1. Clonar repositorio
+   
     git clone <URL_DEL_REPO>
 
-2. Crear rama de trabajo
+3. Crear rama de trabajo
+   
     Ubicado en el proyecto clonado ejecute
+   
        git checkout -b nombrecompleto_documentoidentidad
+   
     Esa sera la rama en la que debe desarrollar y subir al repositorio comun
 
-4. Abrir proyecto
+5. Abrir proyecto
+   
     En Visual Studio Code:
+   
     code .
+   
     En IntelliJ:
+   
     File → Open → seleccionar carpeta
 
-5. Cargar dependencias
+7. Cargar dependencias
+   
     En VS Code:
+   
     Abrir pom.xml
+   
     Click en Reload Maven Project
 
-6. Ejecutar pruebas
+9. Ejecutar pruebas
+    
     Ubicar archivo:
+   
         CarritoServiceTest.java
+   
     Ejecutar:
+   
         Click en ▶ Run Test
+   
     O desde terminal:
+   
         mvn test
    
-8. Luego de desarrollar, ejecute en la terminal
+11. Luego de desarrollar, ejecute en la terminal
+    
     git add .
+    
     git commit -m "Descripción del cambio"
+    
     git push origin nombrecompleto_documentoidentidad
 
    
